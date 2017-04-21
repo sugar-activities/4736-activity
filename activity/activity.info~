@@ -1,0 +1,6 @@
+[Activity]
+name = iHomework
+activity_version = 4
+bundle_id = org.sugarlabs.ihomework
+exec = sugar-activity-web
+icon = activity-icon

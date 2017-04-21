@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8" />
+<title>iHomework</title>
+<link rel="stylesheet" media="not screen and (device-width: 1200px) and (device-height: 900px)"
+      href="lib/sugar-web/graphics/css/sugar-96dpi.css">
+<link rel="stylesheet" media="screen and (device-width: 1200px) and (device-height: 900px)"
+      href="lib/sugar-web/graphics/css/sugar-200dpi.css">
+<link rel="stylesheet" href="css/activity.css">
+<script data-main="js/loader" src="lib/require.js"></script>
+</head>
+
+<body>
+<div id="main-toolbar" class="toolbar">
+  <button class="toolbutton" id="activity-button" title="iHomework"></button>
+  <button class="toolbutton pull-right" id="stop-button" title="Stop"></button>
+</div>
+  <div id="canvas">
+    <iframe
+      src="http://francocorreasosa.github.io/iHomework"
+      marginWidth=0 marginHeight=0 frameBorder=0
+      id=iframeApp
+      style="width:100%; height:100%;" frameSpacing=0>
+    </iframe>
+  </div>
+</body>
+
+</html>
